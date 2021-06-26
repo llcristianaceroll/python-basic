@@ -12,7 +12,7 @@ def es_primo(numero):
         return False
 
 
-def run():
+def run(): 
     numero =  int(input('Escribe un nummero: '))
     if es_primo(numero):
         print('Es primo')
